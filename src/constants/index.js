@@ -71,7 +71,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  whatsapp: " https://web.whatsapp.com/send?phone=+254714252464",
   phoneNo: "+254-714-252-464 ",
   email: "calebkiamba9@gmail.com",
 };
