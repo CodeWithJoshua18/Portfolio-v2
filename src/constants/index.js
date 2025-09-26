@@ -9,33 +9,33 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
+  year: "2025",
+  role: "App Developer",
+  company: "Strathmore Conference App",
+  description: `Developed a mobile-friendly conference management application for event attendees. Features included session schedules, speaker profiles, and live updates to improve event experience.`,
+  technologies: ["React", "Flutter", "Firebase", "PWA"],
+},
+  {
+    year: "2024 - Present",
+    role: " Full Stack Developer",
+    company: "Retrosoft Inc.",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
+    year: "2023 - Present",
+    role: "IT Specialist",
+    company: "RetroWorld Studios Inc.",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
   },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+ {
+  year: "2021",
+  role: "Freelance Web Developer",
+  company: "KicksByKigga",
+  description: `Designed and developed a responsive e-commerce website for a local shoe retailer. Implemented product catalog, cart functionality, and order management system to improve online sales.`,
+  technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+},
 ];
 
 export const PROJECTS = [
