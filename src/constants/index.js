@@ -1,3 +1,4 @@
+import { BsWhatsapp } from "react-icons/bs";
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
@@ -70,7 +71,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  whatsapp: " https://web.whatsapp.com/send?phone=+254714252464",
+  phoneNo: "+254-714-252-464 ",
+  email: "calebkiamba9@gmail.com",
 };
