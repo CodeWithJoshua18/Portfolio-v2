@@ -33,39 +33,39 @@ export const EXPERIENCES = [
   year: "2021",
   role: "Freelance Web Developer",
   company: "KicksByKigga",
-  description: `Designed and developed a responsive e-commerce website for a local shoe retailer. Implemented product catalog, cart functionality, and order management system to improve online sales.`,
-  technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+  description: `Designed and developed a responsive e-commerce website for a local shoe retailer. Implemented product catalog and Contact Methods.`,
+  technologies: ["HTML", "CSS", "JavaScript"],
 },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "KicksByKigga E-commerce",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional e-commerce website with features like product listing.",
+    technologies: ["HTML", "CSS", "Javascript"],
   },
   {
-    title: "Task Management App",
+    title: " Strathmore Conference App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Developed a mobile-friendly conference management application for Strathmore University attendees. The app was designed to streamline the event experience by providing access to session schedules, speaker profiles, and real-time updates, ensuring participants could easily navigate the conference.",
+    technologies: ["React", "EXpo", "Flutter", "Firebase"],
   },
   {
-    title: "Portfolio Website",
+    title: "DropEx",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "A Tech-Driven logistics startup taht streamlines operations and enhances delivery efficiency through innovative technology solutions.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
-    title: "Blogging Platform",
+    title: "Chef-Claude",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Chef Claude helps people make the most of what they already have at home. By listing your available ingredients, the app uses AI to generate creative and practical recipe ideas—making cooking easier, reducing food waste, and inspiring new meals.",
+    technologies: ["React", "CSS", "Claude-AI"],
   },
 ];
 

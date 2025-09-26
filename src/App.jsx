@@ -3,6 +3,7 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Tech from "./components/Tech"
 import Experience from "./components/Experience"
+import Projects from "./components/Projects"
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
         <About />
         <Tech />
         <Experience />
+        <Projects />
       </div>
     </div>
   )
