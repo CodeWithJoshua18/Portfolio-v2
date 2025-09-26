@@ -1,5 +1,5 @@
 import { ABOUT_TEXT } from '../constants'
-import aboutImg from '/home/caleb/Documents/React-Projects/React-Portfolio/portfolio/src/assets/3.jpg'
+import aboutImg from '../assets/3.jpg'
 function About() {
 
     return(
