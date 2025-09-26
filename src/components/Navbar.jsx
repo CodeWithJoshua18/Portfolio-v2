@@ -34,7 +34,7 @@ function Navbar() {
         </a>
 
         <a
-          href="https://web.whatsapp.com/send?phone=+254714252464"
+          href="https://wa.me/254714252464?text=Hi%20Joshua,%20I%20came%20from%20your%20portfolio!"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="WhatsApp"
