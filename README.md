@@ -1,16 +1,60 @@
-# React + Vite
+A modern portfolio website built with React + Vite to showcase projects, skills, and contact info.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
 
-Currently, two official plugins are available:
+Built with React and Vite for fast development and build times
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Modular component structure
 
-## React Compiler
+Responsive design for mobile & desktop
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Support for multiple pages / sections (Projects, About, Contact, etc.)
 
-## Expanding the ESLint configuration
+Easy to customize / extend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tech Stack
+
+| Tool                     | Purpose                                        |
+| ------------------------ | ---------------------------------------------- |
+| React                    | UI library                                     |
+| Vite                     | Build tool / dev server                        |
+| CSS / SCSS / CSS modules | Styling (or however your styles are organized) |
+| ESlint / Prettier        | Linting & formatting                           |
+| (Optional) Other libs    | e.g. icons, routing, state management          |
+
+Installation
+1. Clone the repo
+   git clone https://github.com/CodeWithJoshua18/Portfolio-v2.git
+   cd Portfolio-v2
+2. Install Dependencies
+   npm install
+   yarn install
+3. Start Development Server
+   npm run dev
+     # or
+   yarn dev
+4. Build For Production
+   npm run build
+     # or
+   yarn build
+5. Preview production build
+   npm run preview
+
+Usage
+1. Modify project entries, images, and content in your component files
+2. Change styling in the styles/ folder or CSS files
+3. Add new sections (blog, testimonials, etc.) as you like
+4. Deploy to Netlify, Vercel, GitHub Pages, or your preferred host
+
+Contributing
+1. Fork the repo
+2. Create a branch: git checkout -b feature/your-feature
+3. Make your changes
+4. Commit: git commit -m "Add some feature"
+5. Push: git push origin feature/your-feature
+6. Submit a pull request
+   
+
+   
+
+    
