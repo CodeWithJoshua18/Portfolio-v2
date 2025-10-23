@@ -60,14 +60,18 @@ function Projects() {
                   ))}
                 </div>
               </div>
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-auto inline-block rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-blue-500"
-              >
-                View Site
-              </a>
+
+              {/* View Site Button */}
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-auto inline-block rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-blue-500"
+                >
+                  View Site
+                </a>
+              )}
             </div>
           </motion.div>
         ))}
