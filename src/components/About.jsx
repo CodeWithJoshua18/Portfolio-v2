@@ -1,5 +1,6 @@
 import { ABOUT_TEXT } from '../constants'
 import aboutImg from '/images/caleb.jpeg'
+
 import { motion } from 'framer-motion'
 
 // Variants for staggered text animation
