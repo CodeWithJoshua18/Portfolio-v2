@@ -22,7 +22,7 @@ function Hero() {
         animate="visible"
         className="pb-6 text-6xl font-thin tracking-tight lg:text-7xl"
       >
-        Hi, I'm <span className="font-semibold">Caleb</span>
+        Hello, I'm <span className="font-semibold">Caleb</span>
       </motion.h1>
 
       <motion.span

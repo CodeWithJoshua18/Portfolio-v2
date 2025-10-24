@@ -41,14 +41,16 @@ function Contact() {
         viewport={{ once: true }}
         className="flex flex-col items-center gap-6 px-6 sm:flex-row sm:justify-center"
       >
-        {/* Phone Card */}
+        {/* View CV Button */}
         <motion.a
           variants={item}
-          href={`tel:${CONTACT.phoneNo}`}
+          href="/Caleb Kiamba - Entry-level Business & Technology Professional-1761248455.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           className="group flex items-center gap-3 rounded-2xl border border-neutral-700 bg-neutral-900/50 px-6 py-4 shadow-lg backdrop-blur-md transition hover:scale-105 hover:border-blue-500"
         >
-          <i className="fas fa-phone text-blue-400 group-hover:animate-bounce"></i>
-          <span className="font-medium">{CONTACT.phoneNo}</span>
+          <i className="fas fa-file-alt text-blue-400 group-hover:animate-bounce"></i>
+          <span className="font-medium">View My CV</span>
         </motion.a>
 
         {/* Email Card */}

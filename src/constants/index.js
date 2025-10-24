@@ -1,13 +1,15 @@
 import { BsWhatsapp } from "react-icons/bs";
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/kicks.png";
+import project2 from "../assets/projects/conn2.png";
+import project3 from "../assets/projects/dropex.png";
+import project4 from "../assets/projects/baraka.png";
 
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+export const HERO_CONTENT = `A passionate developer with a solid foundation in modern front-end technologies including React, Tailwind CSS, and Next.js. I’m actively learning and building my proficiency in back-end tools like Node.js, MySQL, and PostgreSQL to become a well-rounded full-stack developer capable of delivering impactful digital experiences.`;
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I am honing my skills in front-end technologies like React, Tailwind.css, and Next.js as well as back-end technologies like Node.js, MySQL, and PostgreSQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile developer with a passion for building efficient, user-focused, and visually engaging web applications. My journey in web development started with a deep curiosity about how technology connects people and ideas — a curiosity that has grown into a career centered on continuous learning and problem-solving.
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+I bring a solid foundation in front-end technologies such as React, Next.js, and Tailwind CSS, complemented by growing expertise in back-end development using Node.js, MySQL, PostgreSQL, and MongoDB. I’ve worked on diverse projects, including a conference management app for Strathmore University, a tourism website designed to inspire travel experiences, a shoe e-commerce platform, and a dropshipping website that streamlines online retail processes.
+`;
 
 export const EXPERIENCES = [
   {
@@ -47,7 +49,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing and contact integration for easy order management.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    link: "https://kigga.vercel.app/", 
+    link: "https://kigga.vercel.app/",
   },
   {
     title: "Strathmore Conference App",
@@ -55,7 +57,7 @@ export const PROJECTS = [
     description:
       "A mobile-friendly conference management application for Strathmore University attendees, providing schedules, speaker profiles, and real-time updates.",
     technologies: ["React", "Expo", "Flutter", "Firebase"],
-    link: "https://strath-conference-web.vercel.app/", 
+    link: "https://strath-conference-web.vercel.app/",
   },
   {
     title: "DropEx",
@@ -63,15 +65,15 @@ export const PROJECTS = [
     description:
       "A tech-driven logistics platform that streamlines delivery operations and enhances efficiency through innovative technology solutions.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
-    link: "https://dropexlogistics.com/", 
+    link: "https://dropexlogistics.com/",
   },
   {
     title: "Baraka Trails",
     image: project4,
     description:
       "A travel and tour website offering curated experiences, seamless booking, and personalized itineraries to explore breathtaking destinations.",
-    technologies: ["React", "tailwind.CSS"],
-    link: "https://baraka-trails.vercel.app", 
+    technologies: ["React", "Tailwind CSS"],
+    link: "https://baraka-trails.vercel.app",
   },
 ];
 
