@@ -44,7 +44,7 @@ function Contact() {
         {/* View CV Button */}
         <motion.a
           variants={item}
-          href="public\Caleb Kiamba.pdf"
+          href="\Caleb Kiamba.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="group flex items-center gap-3 rounded-2xl border border-neutral-700 bg-neutral-900/50 px-6 py-4 shadow-lg backdrop-blur-md transition hover:scale-105 hover:border-blue-500"
