@@ -13,6 +13,13 @@ I bring a solid foundation in front-end technologies such as React, Next.js, and
 
 export const EXPERIENCES = [
   {
+    year: "2026",
+    role: "FrontEnd Developer",
+    company: "Baraka Trails",
+    description: "Led frontend development, creating responsive and interactive user interfaces that improved user engagement and booking efficiency.",
+    technologies: ["React", "Framer", "PWA"]
+  },
+  {
     year: "2025",
     role: "App Developer",
     company: "Strathmore Conference App",
@@ -20,14 +27,14 @@ export const EXPERIENCES = [
     technologies: ["React", "Flutter", "Firebase", "PWA"],
   },
   {
-    year: "2024 - Present",
+    year: "2024",
     role: "Full Stack Developer",
     company: "Retrosoft Inc.",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["JavaScript", "React.js", "Next.js", "MongoDB"],
   },
   {
-    year: "2023 - Present",
+    year: "2023",
     role: "IT Specialist",
     company: "RetroWorld Studios Inc.",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
